@@ -1,5 +1,27 @@
 # ANN Energy Efficiency — README
 
+# Find Heating_Load using ANN — summary
+
+Purpose
+
+- Build an ANN to predict Heating_Load from building features (Energy Efficiency dataset).
+
+Target variable and input features
+
+- Target (y):
+  - Heating_Load
+- Inputs (X) — used features (6):
+  - Relative_Compactness
+  - Surface_Area
+  - Wall_Area
+  - Roof_Area
+  - Overall_Height
+  - Glazing_Area
+- Dropped / not used:
+  - Orientation
+  - Glazing_Area_Distribution
+  - Cooling_Load (used for cooling-target tasks, not here)
+
 Minimal instructions to reproduce preprocessing, hyperparameter tuning, and training for the ANN regression model.
 
 ## Files (workspace)
